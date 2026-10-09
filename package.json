@@ -1,0 +1,21 @@
+{
+  "name": "schedly",
+  "version": "1.0.0",
+  "description": "Schedly: meeting memory dashboard. Contact memory, AI meeting briefs, commitment tracking and grounded chat, built on Hindsight + Groq.",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node scripts/seed.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "groq-sdk": "^1.6.0",
+    "multer": "^2.0.0"
+  }
+}
